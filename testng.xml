@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="arrow.TestResultListener"></listener>
+        <listener class-name="arrow.RetryListener"></listener>
+        <listener class-name="arrow.ExtentReporterNGListener"></listener>
+        <!--
+        <listener class-name="org.uncommons.reportng.HTMLReporter" >
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" > -->
+    </listeners>
+    <test verbose="1" preserve-order="true" name="E:/workspace/uitest">
+        <classes>
+            <class name="test.LoginTest"/>
+            <class name="test.GeneralTest"/>
+            <class name="test.ProGrammingTest"/>
+         </classes>
+     </test>
+ </suite>
+
+

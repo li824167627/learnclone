@@ -1,0 +1,10 @@
+[2020-10-21 17:33:27] [INFO] RetryCount=0
+[2020-10-21 17:33:27] [INFO] SourceDir=src/test/java/test
+[2020-10-21 17:33:27] [INFO] SourceEncoding=UTF-8
+[2020-10-21 17:33:36] [INFO] 进入登录页面开始登陆
+[2020-10-21 17:33:40] [INFO] 概览页相关跳转
+[2020-10-21 17:33:45] [INFO] Retry for： [generalTest] on class [test.GeneralTest] retry 0 times
+[2020-10-21 17:33:45] [INFO] 概览页相关跳转
+[2020-10-21 17:33:49] [INFO] 电路编程
+[2020-10-21 17:34:58] [INFO] Retry for： [proGrammingTest] on class [test.ProGrammingTest] retry 0 times
+[2020-10-21 17:34:58] [INFO] 电路编程
